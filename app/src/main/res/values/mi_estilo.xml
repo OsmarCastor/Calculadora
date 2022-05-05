@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="botone" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@color/primary</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:onClick">presionaNumero</item>
+    </style>
+
+    <style name="botonOperacion" parent="botone">
+        <item name="android:background">@color/primary_light</item>
+        <item name="android:color">@color/primary_text</item>
+    </style>
+</resources>
